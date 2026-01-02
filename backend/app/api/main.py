@@ -6,7 +6,12 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from dotenv import load_dotenv
+
 from app.api.routers.v1 import router as v1_router
+
+load_dotenv()
+
 
 logging.basicConfig(
     level=logging.INFO,
