@@ -46,7 +46,7 @@
       "--multi-line=3",
       "--trailing-comma",
       "--profile=black",
-      "${workplaceFolder}/backend"
+      "${workspaceFolder}/backend"
   ],
   "python.testing.pytestArgs": [
       "tests"
